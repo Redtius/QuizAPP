@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz APP</title>
+  <!--CSS Tailwind CDN-->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-800 h-screen flex justify-center items-center">
+  <section class="bg-gray-300 rounded-xl p-10 w-1/2">
+    <table>
+      <thead>
+        <tr><h1 class="text-xl font-bold mb-5" id="Question"></h1></tr>
+      </thead>
+      <tbody class="w-full">
+        <div id="Answers">
+
+        </div>
+        <tr><div class="flex justify-end"><button class="p-2 bg-slate-800 w-1/6 text-white" id="Next" disabled>Next</button></div></tr>
+      </tbody>
+      
+    </table>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
